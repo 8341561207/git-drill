@@ -9,5 +9,5 @@ def get_user(users,user_id):
                 if user["id"]==user_id:
                     return user
     except:
-         raise ValueError("User not found")
+         raise LookupError("User not found")
        

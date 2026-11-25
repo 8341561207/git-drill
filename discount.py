@@ -10,4 +10,5 @@ def get_user(users,user_id):
                     return user
     except:
          raise LookupError("User not found")
-       
+
+print(apply_discount(200000,20))       

@@ -2,6 +2,6 @@
 def greet(name):
     return  f"Good Day Ahead, {name}"
 
-print(greet("Alice"))
+print(greet("Ganesha"))
 
 
